@@ -28,3 +28,13 @@ options:
                         Dry run (no conversion takes place)
 
 ```
+
+## Example
+
+```
+$ python vp9_bulk_convert.py
+Probing indicated that S03E01.mkv needs to be reconverted.
+['S03E01.mkv', 'S03E04.mkv', 'S03E05.mkv', 'S03E08.mkv', 'S03E12.mkv', 'S03E11.mkv', 'S03E02.mkv']
+[1/7] Converting S03E01.mkv
+       7%|▋         | 187/2.61k [14:52<4:10:40, 6.21s/s] 
+```
